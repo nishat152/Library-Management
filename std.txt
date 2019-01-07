@@ -1,0 +1,13 @@
+CREATE TABLE students (
+
+    si_no int(10) AUTO_INCREMENT,
+    name varchar(50) NOT NULL,
+    id int(10) NOT NULL UNIQUE,
+    
+    dept varchar(50) NOT NULL,
+    intake varchar(50) NOT NULL,
+    gender varchar(50) NOT NULL,
+    
+    PRIMARY KEY (si_no)
+
+);

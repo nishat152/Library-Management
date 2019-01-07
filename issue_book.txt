@@ -1,0 +1,12 @@
+CREATE TABLE issue_book (
+
+    id int(10) PRIMARY KEY AUTO_INCREMENT,
+    std_id int(10),
+    book_name varchar(50) NOT NULL,
+    author_name varchar(50) NOT NULL,
+    issue_date varchar(50) NOT NULL,
+    return_date varchar(50) NOT NULL,
+    
+    FOREIGN KEY (std_id) REFERENCES students(id)
+    
+);

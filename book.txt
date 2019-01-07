@@ -1,0 +1,5 @@
+CREATE TABLE `library`.`book` ( `si-no` INT(10) NOT NULL AUTO_INCREMENT ,
+ `book_name` VARCHAR(100) NOT NULL ,
+ `author_name` VARCHAR(100) NOT NULL , 
+`edition` VARCHAR(100) NOT NULL ,
+ PRIMARY KEY (`si-no`));
